@@ -13,11 +13,34 @@
   }
   </style>
 </head>
+<style media="screen">
+
+body{
+  margin:0;
+}
+img{
+  max-width: 100%;
+  vertical-align: top;
+
+}
+img#responsive{
+  display: none;
+}
+@media screen and (max-width : 768px){
+
+  img#responsive{
+    display: block;
+  }
+}
+</Style>
 <body>
 
-  <img src="header.jpg" alt="hola" style="s">
-  <img src="hero.jpg" alt="hola" style="s">
-  <img src="acustica.jpg" alt="hola" style="s">
+  <img src="invie-responsive.png" alt="hola" id="responsive">
+  <img src="header.jpg">
+  <img src="hero.jpg">
+  <img src="acustica.jpg">
+  <img src="footer.jpg">
+
 
 
 </body>
